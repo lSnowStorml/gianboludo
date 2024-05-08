@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/wall.jpg);
+    color: aliceblue;
+}
+h1{
+    font-size: 60px;
+}
+#contenedor {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.btnn{
+    box-shadow: rgba(0, 0, 0, 0.589) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    border: none;
+    background-color: rgb(43, 41, 121); 
+    font-size: 20px;
+    display: flex;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    align-items: center;
+}
+
+.btnn:hover{
+    background-color: #563192; 
+}
+.btnn:active{
+    transform: scale(0.96);
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.modal-content{
+    background-color:rgb(0, 35, 66);
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    background-color: rgb(43, 41, 121); 
+    border: none;
+}
+
+mark{
+    background-color: #90d3ff88; 
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background-color: #563192; 
+}
